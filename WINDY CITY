@@ -1,1 +1,100 @@
 index.html
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windy City RP</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10131b;
+      color: white;
+      text-align: center;
+    }
+    header {
+      background: #080a10;
+      padding: 25px 15px;
+      border-bottom: 2px solid #35c878;
+    }
+    h1 { color: #35c878; font-size: 38px; }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+    }
+    .hero { padding: 75px 20px; }
+    .hero h2 { font-size: 32px; }
+    .hero p { color: #c4c8d2; }
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 22px;
+      background: #35c878;
+      color: #07120b;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 30px 20px; }
+    .card {
+      background: #1b202b;
+      margin: 15px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 500px;
+    }
+    footer {
+      padding: 25px;
+      color: #aab0bc;
+      background: #080a10;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WINDY CITY RP</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#reglement">Règlement</a>
+      <a href="#communaute">Communauté</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" id="accueil">
+      <h2>Bienvenue à Windy City RP</h2>
+      <p>Une nouvelle vie. Une nouvelle histoire. Ta ville, ton destin.</p>
+      <a class="button" href="#communaute">Rejoindre la communauté</a>
+    </div>
+
+    <section id="reglement">
+      <h2>Règlement du serveur</h2>
+      <div class="card">
+        <h3>Respect</h3>
+        <p>Respecte les joueurs et le staff.</p>
+      </div>
+      <div class="card">
+        <h3>Roleplay sérieux</h3>
+        <p>Respecte le RP et les règles de la ville.</p>
+      </div>
+    </section>
+
+    <section id="communaute">
+      <h2>Notre communauté</h2>
+      <div class="card">
+        <p>Rejoins notre Discord pour les annonces et les informations.</p>
+        <p>Le lien Discord sera ajouté ici.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Windy City RP — Tous droits réservés.
+  </footer>
+</body>
+</html>
+```
